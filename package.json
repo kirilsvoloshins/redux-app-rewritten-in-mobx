@@ -1,0 +1,39 @@
+{
+  "name": "Redux1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cy:open & cypress run",
+    "start": "vite",
+    "start:serve": "http-server --port 3000 dist",
+    "start:tsc": "tsc -w",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cypress": "^12.5.1",
+    "lodash-es": "^4.17.21",
+    "mobx": "^6.8.0",
+    "mobx-react": "^7.6.0",
+    "react-redux": "^8.0.5",
+    "redux-thunk": "^2.4.2",
+    "reselect": "^4.1.7",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "29.4.0",
+    "@types/lodash-es": "^4.17.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-redux": "^7.1.22",
+    "@vitejs/plugin-react": "^3.1.0",
+    "jest": "29.4.2",
+    "npm-run-all": "^4.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "ts-jest": "^29.0.5",
+    "vite": "^4.1.1"
+  }
+}
